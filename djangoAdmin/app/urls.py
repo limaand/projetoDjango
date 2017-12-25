@@ -3,5 +3,6 @@ from .views import *
 
 
 urlpatterns = [
-               url(r'^veiculo/listar/$', listar_veiculo, name='listar_veiculo'),
+    url(r'^veiculo/listar/$', listar_veiculo, name='listar_veiculo'),
+
 ]
